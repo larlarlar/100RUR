@@ -1,12 +1,12 @@
 public class Main {
     public static void main(String[] args) {
 
-        long amount = 0;
-        long sum = 1100;
-        long bonus = amount + sum;
-        if (sum >= 1000) {
-            bonus = amount + sum + sum / 100;
+        int balance = 0;
+        int refill = 1301;
+        int newbalance = balance + refill;
+        if (refill >= 1000) {
+            newbalance = balance + refill + refill / 100;
         }
-        System.out.println(bonus);
+        System.out.println(newbalance);
     }
 }
